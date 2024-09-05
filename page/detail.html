@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="website icon" href="../img/nike.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nike">
+            <a href="../index.html"><img src="../img/nike.png" alt=""></a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li class="dropdown">
+                <a href="#">MEN</a>
+                <div class="content">
+                    <div class="column">
+                        <a href="page/sneaker.html">Sneaker</a>
+                        <a href="empty.html">Running</a>
+                        <a href="empty.html">Football</a>
+                        <a href="empty.html">Basket</a>
+                    </div>                 
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">WOMEN</a>
+                <div class="content">
+                    <div class="column">
+                        <a href="empty.html">Sneaker</a>
+                        <a href="empty.html">Running</a>
+                        <a href="empty.html">Football</a>
+                        <a href="empty.html">Basket</a>
+                    </div>                 
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">BOYS</a>
+                <div class="content">
+                    <div class="column">
+                        <a href="empty.html">Sneaker</a>
+                        <a href="empty.html">Running</a>
+                        <a href="empty.html">Football</a>
+                        <a href="empty.html">Basket</a>
+                    </div>                 
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">GIRLS</a>
+                <div class="content">
+                    <div class="column">
+                        <a href="empty.html">Sneaker</a>
+                        <a href="empty.html">Running</a>
+                        <a href="empty.html">Football</a>
+                        <a href="empty.html">Basket</a>
+                    </div>                 
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">COLLECTION</a>
+                <div class="content">
+                    <div class="column">
+                        <a href="empty.html">Sneaker</a>
+                        <a href="empty.html">Running</a>
+                        <a href="empty.html">Football</a>
+                        <a href="empty.html">Basket</a>
+                    </div>                 
+                </div>
+            </li>
+            <div class="search-ul">
+                <input class="cari" type="search">
+                <button class="tombol-cari"><i class="fa-solid fa-magnifying-glass"></i></button>            
+            </div>
+            <div class="cart-ul">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </ul>        
+        <div class="keranjang">
+            <div class="search">
+                <input class="cari" type="search">
+                <button class="tombol-cari"><i class="fa-solid fa-magnifying-glass"></i></button>            
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>    
+    </nav>
+
+    <section id="detail">
+        <div class="kumpul">
+            <div class="container sticky">
+                <div class="thumb gambar-kecil"> 
+                    <li><img src="../img/img1 (1).png" onclick="imgSlider('../img/img1 (1).png');" alt=""></li>
+                    <li><img src="../img/img1 (2).png" onclick="imgSlider('../img/img1 (2).png');" alt=""></li>
+                    <li><img src="../img/img4.png" onclick="imgSlider('../img/img4.png');" alt=""></li>
+                    <li><img src="../img/img2 (3).png" onclick="imgSlider('../img/img2 (3).png');" alt=""></li>
+                </div>
+                <div class="gambar imgbox">
+                    <img class="starbucks" src="../img/img1 (1).png" alt="">
+                </div>                
+            </div>
+            <div class="d-con ">
+                <div class="merek">
+                    <h1>Nike White Sneaker</h1>
+                    <p>Rp 200.000</p>
+                </div>
+                <div class="detail shoe-size-selector">
+                    <h2>Select Size</h2>
+                    <form>
+                        <div class="size-options">
+                            <input type="radio" id="size-38" name="size" value="38">
+                            <label for="size-38">38</label>
+    
+                            <input type="radio" id="size-39" name="size" value="39">
+                            <label for="size-39">39</label>
+    
+                            <input type="radio" id="size-40" name="size" value="40">
+                            <label for="size-40">40</label>
+    
+                            <input type="radio" id="size-41" name="size" value="41">
+                            <label for="size-41">41</label>
+    
+                            <input type="radio" id="size-42" name="size" value="42">
+                            <label for="size-42">42</label>
+    
+                            <input type="radio" id="size-43" name="size" value="43">
+                            <label for="size-43">43</label>
+                        </div>
+                        <div class="rata">                         
+                            <button type="submit">Add to Cart</button>
+                        </div>                        
+                    </form>
+                </div>
+                <div class="product-description-container">
+                    <button class="toggle-description-btn">
+                        Show Description <span class="arrow"><img src="../img/arrow.png" alt=""></span>
+                    </button>
+                    <div class="product-description">                        
+                        <p>This is a detailed description of the product. It provides all the necessary information about the product's features, specifications, and benefits.This is a detailed description of the product. It provides all the necessary information about the product's features, specifications, and benefits.</p>
+                        <ul>
+                            <li>Feature 1: High quality material</li>
+                            <li>Feature 2: Available in various sizes</li>
+                            <li>Feature 3: Affordable price</li>
+                            <li>Feature 3: Affordable price</li>
+                            <li>Feature 3: Affordable price</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="like">
+        <div class="judul">
+            <h1>If You Like</h1>
+        </div>
+        <div class="container">
+            <a href="page/detail.html">
+            <div class="card">
+                <div class="gambar">
+                    <img src="../img/img1 (1).png" alt="">
+                </div>
+                <div class="rata">
+                    <div class="des">
+                        <h1>Nike White Sneaker</h1>
+                        <div class="bintang">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="tomboll">
+                            <button class="a">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="harga">
+                        <p>Rp 200.000</p>
+                    </div>
+                </div>                
+            </div>
+            </a>
+
+             <a href="">
+            <div class="card">
+                <div class="gambar">
+                    <img src="../img/img1 (1).png" alt="">
+                </div>
+                <div class="rata">
+                    <div class="des">
+                        <h1>Nike White Sneaker</h1>
+                        <div class="bintang">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="tomboll">
+                            <button class="a">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="harga">
+                        <p>Rp 200.000</p>
+                    </div>
+                </div>                
+            </div>
+            </a>
+
+            <a href="">
+            <div class="card">
+                <div class="gambar">
+                    <img src="../img/img1 (1).png" alt="">
+                </div>
+                <div class="rata">
+                    <div class="des">
+                        <h1>Nike White Sneaker</h1>
+                        <div class="bintang">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="tomboll">
+                            <button class="a">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="harga">
+                        <p>Rp 200.000</p>
+                    </div>
+                </div>                
+            </div>
+            </a>
+
+            <a href="">
+                <div class="card">
+                    <div class="gambar">
+                        <img src="../img/img1 (1).png" alt="">
+                    </div>
+                    <div class="rata">
+                        <div class="des">
+                            <h1>Nike White Sneaker</h1>
+                            <div class="bintang">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="tomboll">
+                                <button class="a">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="harga">
+                            <p>Rp 200.000</p>
+                        </div>
+                    </div>                
+                </div>
+                </a>
+                
+             <a href="">
+                <div class="card">
+                    <div class="gambar">
+                        <img src="../img/img1 (1).png" alt="">
+                    </div>
+                    <div class="rata">
+                        <div class="des">
+                            <h1>Nike White Sneaker</h1>
+                            <div class="bintang">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="tomboll">
+                                <button class="a">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="harga">
+                            <p>Rp 200.000</p>
+                        </div>
+                    </div>                
+                </div>
+                </a>
+
+                 <a href="">
+                <div class="card">
+                    <div class="gambar">
+                        <img src="../img/img1 (1).png" alt="">
+                    </div>
+                    <div class="rata">
+                        <div class="des">
+                            <h1>Nike White Sneaker</h1>
+                            <div class="bintang">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="tomboll">
+                                <button class="a">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="harga">
+                            <p>Rp 200.000</p>
+                        </div>
+                    </div>                
+                </div>
+                </a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="copy">
+            <h1>Copyright @2021 All Right reserved | <span>This template is made by Danis Herlana</span></h1>
+        </div>        
+    </footer>
+
+    <script src="../assets/script.js"></script>
+</body>
+</html>
